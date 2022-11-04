@@ -22,7 +22,7 @@ The results are:
 ![2022-10-31 (2)](https://user-images.githubusercontent.com/100956239/200075173-4637de34-1aef-4909-83fe-301f998b45e3.png)
 ![2022-10-31 (3)](https://user-images.githubusercontent.com/100956239/200075333-5cafdc5c-6ee3-4912-bb00-d3c836eeb8cf.png)
 
-***3 QR Code ***
+***3 QR Code***
 - For the 3rd bullet i added the **library** named **Processing QRCode Library**.Then i made my **own QR code** from [here](https://www.qrcode-monkey.com/?fbclid=IwAR0Y-9kDageMrt7LHb_Nv7zM1ZwqU4mdlNsWyt8snuwX7sQJ2W0KfYuW0Gk/).Following that i copied the code from the **example 15-1** from the book **Learning Processing**.I changed the previous picture with my own QR code picture which it contains my own **URL**.Furthermore i read again the code from the **Processing QRCode Library** and i combined the two codes together.Lastly i added a **case** which i found from [here](https://processing.org/examples/embeddedlinks.html/) and **bullet4**.The QR code was saved in a **data** folder.
  ![2022-11-04 (1)](https://user-images.githubusercontent.com/100956239/200079115-20bdb841-421a-47cb-9267-296b9e1c18ed.png)
  
@@ -65,3 +65,8 @@ The results are:
 
 
 # Sources
+- [Processing](https://processing.org/)
+- [Youtube](https://www.youtube.com/)
+- [QR Generator](https://www.qrcode-monkey.com/?fbclid=IwAR0Y-9kDageMrt7LHb_Nv7zM1ZwqU4mdlNsWyt8snuwX7sQJ2W0KfYuW0Gk/)
+
+
