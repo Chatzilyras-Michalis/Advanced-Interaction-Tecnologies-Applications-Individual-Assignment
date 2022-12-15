@@ -57,20 +57,30 @@ The results are:
 -  First Bullet(Background Removal)
 Firstly I opened the greenscreen example and I replaced the    **PImage backgroundReplace** with **Movie backgroundReplace** in order to add a video instead of an image in the background. I proceeded by replacing the **loadImage** in void setup with **new Movie(this, "10secVID.mp4"); **  and I added a **loop** .Then I added **void movieEvent** outside of void setup. Lastly I replaced the previous code in **If/else** with this one (**pixels[loc] = backgroundReplace.pixels[loc];**) .By doing that the we replace the photo of the beach with video we added. The changes were made based on the 1st deliverable second bullet. When you **start** be off-screen and click with your mouse on the window , the video will start playing and then you must appear on the camera. We do that so pixels can be updated by our movement.
 **Note** if your camera does not work add this **pipeline:autovideosrc** ,  video = new Capture(this, …, …,"pipeline:autovideosrc");  this code was found [here](https://stackoverflow.com/questions/66065614/processing-cant-access-built-in-webcam)
+![2022-12-13](https://user-images.githubusercontent.com/100956239/207949946-4b80cf5f-47f5-4eb3-ba8b-e8d384b811de.png)
+
 
 -  Second Bullet(Motion Detection)
 For the second bullet I used the track motion example .I switched the ellipse with a **rect** , the **size** of the rect and the **color** in fill.
-**Note** the motion works better if only your hand appears on the camera.
+**Note*![2022-12-13 (3)](https://user-images.githubusercontent.com/100956239/207950139-30a319b3-8791-42ba-a246-b4516bdda289.png)
+* the motion works better if only your hand appears on the camera.
+![Uploading 2022-12-13 (3).png…]()
+
+
 
 -  Third Bullet(Background Subtraction)
 For the 3rd bullet I downloaded the **OpenCV for Processing Library**.From there  I opened the **recorder video** code from the first deliverable and deleted the lines that were similar to the code in background subtraction. After deleting the correct lines I opened the code **capture video** also from the first deliverable and added the code that was missing to the correct lines in background subtraction  code. This method helped to not delete or add any incorrect lines to the background subtraction code.
 Answer: The benefit of the second library is that it was programmed to track the difference between the pixels on the camera. Its easier to track the motion and the difference between the pixels. The disadvantage of the library is that it needs good lightning and it was built for a specific purpose so its harder to adapt the code to do something else. 
+
+![2022-12-13 (5)](https://user-images.githubusercontent.com/100956239/207950197-fb7b2098-efba-43a3-be5c-9ff75bffe712.png)
 
 
 
 -  Fourth Bullet(Object Tracking)
 For the fourth bullet I opened the snake tracking library example. The code inside has a the class  of the snake and the snake-tracking code separate. Inside the snake class I edited the color and the opacity of the ellipse. 
 Answer: The benefit of using this library is that its easier to input information because it  doesn’t require a mouse only your camera. The disadvantage is that most of the time the snake is lagging or it doesn’t track the movement correctly. Also it requires good camera.
+![2022-12-13 (7)](https://user-images.githubusercontent.com/100956239/207950249-140165f4-9f51-4e7f-9ed5-9683bb3b4e78.png)
+
 
 Thresholding is a simple, yet effective, way of partitioning an image into a foreground and background. This image analysis technique is a type of image segmentation that isolates objects by converting grayscale images into binary images. When  the digit of the threshold increases it becomes more sensitive to the movements.
 
