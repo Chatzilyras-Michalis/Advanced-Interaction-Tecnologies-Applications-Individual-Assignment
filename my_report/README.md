@@ -48,6 +48,8 @@ The results are:
 
 ![2022-11-05 (3)](https://user-images.githubusercontent.com/100956239/200084183-19bba317-254d-4e17-adc4-5ccd0502e5ee.png)
 
+ - Answer for the question: During the development of the interaction software i was going to use first the simulator because its easier to identify the mistakes and the aesthetic of the image. After that if everything worked correctly i would use the real camera.
+
 
 
 
