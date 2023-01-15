@@ -6,9 +6,11 @@
 ### Advanced Interaction Tecnologies & Applications Github Personal Repository: https://github.com/Chatzilyras-Michalis/Advanced-Interaction-Tecnologies-Applications-Individual-Assignment
 
 # Introduction
-Parrpettopomposhiskas mappourros
-# Summary
+In this report you are going to see the basics of human interactions with advanced technologies and the depth we can achieve by using the proper equipment and coding. Also you will see how easy it is to use processing and how friendly it is for the designers.
 
+
+# Summary
+ In this course we learned the how human interacts with the advanced technologies and applications. We learned the basics at first with the help of some libraries and then we progressed to more advanced projects like removing backrounds and adding pictures and videos instead,tracking the motion of human with a camera. Lastly we used kinect to add depth with the extra camera and adapted the previous codes with the help of our books that were given to us.
 
 # 1st Deliverable
 ***1 Video Capture***
@@ -123,6 +125,8 @@ Thresholding is a simple, yet effective, way of partitioning an image into a for
 
 
 # Conclusions
+Through this course i learned how easy it is to use processing as a designer and how simple it is to manipulate and adapt a simple code to the libraries that were given to us. Also how interesting kinect is as an equipment. 
+
 
 
 # Sources
