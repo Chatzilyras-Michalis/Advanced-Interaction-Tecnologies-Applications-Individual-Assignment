@@ -95,6 +95,25 @@ Thresholding is a simple, yet effective, way of partitioning an image into a for
 
 # 3rd Deliverable 
 
+ - The third deliverable was pretty straight forward i just followed the steps from the instructures.Also  through research from other codes and sites  i placed the code that was missing in the correct places. I did not delete the extra code that was inside the demo incase i need to add things.The first fiducial (0) was an image that it had to appear on the simulator. After achieving that the next fiducials were much easier to add because i used the same method.The fiducials **do not** work if the fiducial zero is not activated.The 3 extra fiducials are  the color changer,the zoom in zoom out and the rotation.[Processing](http://learningprocessing.com/) and [StackOverflow](https://stackoverflow.com/) helped me to add the code in the correct places.
+![2023-01-11 (4)](https://user-images.githubusercontent.com/100956239/212521350-168e3bca-47e9-4f63-8ef7-c8b81e01b16a.png)
+
+![2023-01-11 (1)](https://user-images.githubusercontent.com/100956239/212521356-fabcfd56-6253-40d2-a28f-ab2dad593c0f.png)
+
+![2023-01-11 (2)](https://user-images.githubusercontent.com/100956239/212521363-bac15094-9931-4acf-8899-506372d2c950.png)
+
+![2023-01-11](https://user-images.githubusercontent.com/100956239/212521365-8a317e83-d2d6-4e83-a72d-de63b9c7f3b7.png)
+
+![2023-01-11 (3)](https://user-images.githubusercontent.com/100956239/212521369-790ad20b-b210-4e2d-891f-2d8b51f1580a.png)
+
+![2023-01-15 (1)](https://user-images.githubusercontent.com/100956239/212521415-42f962cf-8f62-4fa9-84af-c6e88fa7349a.png)
+
+![2023-01-15](https://user-images.githubusercontent.com/100956239/212521431-b782bef0-2126-4e14-8c74-95bb1acf08d3.png)
+
+![2023-01-15 (2)](https://user-images.githubusercontent.com/100956239/212521435-c7f4d940-fabb-42ba-84d4-e4045af88f6c.png)
+
+![2023-01-15 (3)](https://user-images.githubusercontent.com/100956239/212521438-22e4c238-53fc-4925-a4ae-9cc951fb272a.png)
+
 
 # Bonus 
 
