@@ -48,7 +48,7 @@ The results are:
 
 ![2022-11-05 (3)](https://user-images.githubusercontent.com/100956239/200084183-19bba317-254d-4e17-adc4-5ccd0502e5ee.png)
 
- - Answer for the question: During the development of the interaction software i was going to use first the simulator because its easier to identify the mistakes and the aesthetic of the image. After that if everything worked correctly i would use the real camera.
+
 
 
 
@@ -116,6 +116,8 @@ Thresholding is a simple, yet effective, way of partitioning an image into a for
 
 ![2023-01-15 (3)](https://user-images.githubusercontent.com/100956239/212521438-22e4c238-53fc-4925-a4ae-9cc951fb272a.png)
 
+
+ - Answer for the question: During the development of the interaction software i was going to use first the simulator because its easier to identify the mistakes and the aesthetic of the image. After that if everything worked correctly i would use the real camera.
 
 # Bonus 
 
