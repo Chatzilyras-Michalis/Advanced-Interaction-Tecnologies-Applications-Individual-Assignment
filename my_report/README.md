@@ -8,6 +8,8 @@
 # Introduction
 In this report you are going to see the basics of human interactions with advanced technologies and the depth we can achieve by using the proper equipment and coding. Also you will see how easy it is to use processing and how friendly it is for the designers.
 
+### Kinect Team : [Chatzilyras Michalis](https://github.com/Chatzilyras-Michalis) | [Giannis Kokkinis](https://github.com/Giannis-Kokkinis) | [Costas Lemonis](https://github.com/Costas-Lemonis)
+### Kinect Version : 1
 
 # Summary
  In this course we learned the how human interacts with the advanced technologies and applications. We learned the basics at first with the help of some libraries and then we progressed to more advanced projects like removing backrounds and adding pictures and videos instead,tracking the motion of human with a camera. Lastly we used kinect to add depth with the extra camera and adapted the previous codes with the help of our books that were given to us.
@@ -122,7 +124,26 @@ Thresholding is a simple, yet effective, way of partitioning an image into a for
  - Answer for the question: During the development of the interaction software i was going to use first the simulator because its easier to identify the mistakes and the aesthetic of the image. After that if everything worked correctly i would use the real camera.
 
 # Bonus 
+- Bonus 1
+Αφού προμηθευτήκαμε το Kinect V1 και εγκαταστήσαμε τα libraries από τα link που είχαμε στην εκφώνηση των ασκησεων.
+1. (**Kinect – Nearest Point Tracking**)
+   - Πήραμε το σκελετό από το example 9-8 και βάλαμε την class Snake από το 2o παραδοτέο και την προσαρμόσαμε ώστε να δουλεύει με την άσκηση και αλλάξαμε το χρώμα του Snake.
+   ![image](https://user-images.githubusercontent.com/100446886/212174082-dc65b738-e5c2-4836-a402-6ab450a68a7e.png)
 
+2. (**Kinect – Background Removal**)
+   - Πήραμε το σκελετό από το Remove_Background_RGB και αντικαταστήσαμε το μαύρο background με ένα βίντεο όπως είχαμε κάνει στο 2ο παραδοτέο.
+  Στο 2ο παραδοτέο το background removal που κάναμε δεν δούλευε καλά γιατί έπρεπε να είσαι εκτός οθόνης για μην σε εντοπίσει και σε αφαιρέσει , ενώ στην έτοιμη βιβλιοθήκη (Kinect) δεν υπάρχει αυτό το πρόβλημα και λειτουργεί καλυτέρα.
+![image](https://user-images.githubusercontent.com/100446886/212173982-5cada63b-fb48-4d72-a1a0-67a41582d4f6.png)
+
+3. (**Kinect – Right-Hand Tracking**)
+   - Για το τελευταίο σκέλος της άσκησης πήραμε το παράδειγμα από το άρθρο και το συνδυάσαμε με το example 9-8 που είναι το Snake Tracking.
+![image](https://user-images.githubusercontent.com/100446886/212173702-a318d793-5b7d-4eef-a84e-979650679c05.png)
+![image](https://user-images.githubusercontent.com/100446886/212559208-618b0499-e816-474f-b818-99d04bc79a01.png)
+
+   - Bonus 2
+Για το 2ο  bonus χρησιμοποιήσαμε το 2ο παράδειγμα chPC_ex10_multi_hotpoint(link).
+Αφού το τρέξαμε το compiler έδειξε μαυρόασπρο φόντο με 2 κύβους. προσθέσαμε άλλους τέσσερις κύβους και έπειτα βάλαμε τις νότες. Μετά αλλάξαμε τον κώδικα για την κάμερα του Kinect v1 έτσι ώστε να εμφανίζει χρώμα από μαυρόασπρο πιο συγκεκριμένα από depth camera σε rgb camera.Για να ενεργοποιήσαμε την rgb camera μας βοήθησε το background removal από το προηγούμενο παραδοτέο(bonus1). Επίσης αυξήσαμε το πάχος των σκελετών των κουτιών [(stroke)](https://processing.org/reference/strokeWeight_.html) για να φαίνεται πιο έντονα. Μετα από τις παρουσιάσεις και τα σχόλια που ακούσαμε προσθέσαμε κώδικα για το fov. Τέλος προσπαθήσαμε να βάλουμε left-right hand tracking αλλά έπρεπε να είναι ενεργοποιημένες και η rgb και η depth κάμερες.
+https://user-images.githubusercontent.com/100446886/212562450-4ae1bc09-20c7-423c-ac14-a433f4e80a1f.mp4
 
 # Conclusions
 Through this course i learned how easy it is to use processing as a designer and how simple it is to manipulate and adapt a simple code to the libraries that were given to us. Also how interesting kinect is as an equipment. 
